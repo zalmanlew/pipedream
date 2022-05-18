@@ -1,4 +1,5 @@
-import { axios } from "@pipedream/platform";
+//import { axios } from "@pipedream/platform";
+const axios = console.log;
 
 export default {
   type: "app",
