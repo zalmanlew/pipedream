@@ -449,7 +449,7 @@ export default {
     },
     reverse_transfer: {
       type: "boolean",
-      label: "Refund Application Fee",
+      label: "Reverse Transfer",
       description: "Whether the transfer should be reversed when refunding this charge. The transfer will be reversed proportionally to the amount being refunded (either the entire or partial amount). Note that a transfer can be reversed only by the application that created the charge.",
       optional: true,
     },
